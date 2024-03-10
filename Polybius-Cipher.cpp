@@ -202,7 +202,7 @@ void encryption6 (string key){
                     if(array[i][j] == y){
                         // The index [i][j] in the standard key (12345) if the user input custom key like 24513
                         // W if character index == [1][2] it in standard key we replace [1] to the first digit of the custom key and so on
-                        // Explained in detailed in attached algorithms
+                        // Explained in detailed in attached algorithms in README.MD file
                         if (i == 1){
                             cout << key[0];
                         }
@@ -297,7 +297,7 @@ void decryption6 (string key){
             char j = encrypted_numes[o +1 ]- '0';
 
             // Get the index of the decrypted character
-            // Explained in detailed in attached algorithms
+            // Explained in detailed in attached algorithms in README.MD file
             if (i == key[0]- '0'){
                 i=1;
             }
